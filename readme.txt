@@ -1,0 +1,1 @@
+The CitrusTest1.as is the document class.

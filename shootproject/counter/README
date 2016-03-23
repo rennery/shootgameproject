@@ -1,0 +1,4 @@
+gcc -g -Wall -pg -pthread -O0 -I../lib -DSTM -I../../tl2-x86-0.9.3 -c tm_counter.c -o tm_counter.o
+
+g++  -pg -L../../tl2-x86-0.9.3  tm_counter.o  ../lib/list.o ../lib/mt19937ar.o ../lib/pair.o ../lib/queue.o ../lib/random.o ../lib/thread.o ../lib/vector.o -lpthread -lm -ltl2 -o tm_counter
+
